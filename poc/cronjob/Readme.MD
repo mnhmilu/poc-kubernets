@@ -6,3 +6,9 @@
  
 
 ` docker run -it --rm samplejob:latest`
+
+
+
+### References:
+
+https://www.youtube.com/watch?v=PUhqw0laR3A&t=99s
