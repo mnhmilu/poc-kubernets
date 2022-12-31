@@ -30,7 +30,8 @@ eksctl create cluster \
 
 ``` kubectl get nodes
 
-``` eksctl delete cluster --name test-cluster
+ eksctl delete cluster --name test-cluster
+ ```
 
 
 
