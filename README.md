@@ -12,6 +12,11 @@ kubernetes based microservice
 
 - [X] Docker Registry
 
+- [X] Terraform 
+
+- [X] eksctl AWS EKS
+ 
+
 
 https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD
 
