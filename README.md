@@ -6,7 +6,12 @@ kubernetes based microservice
 
 ### POC List
 
-CronJob 
+- [X] Kuberntes -BaicCronJob
+
+- [X] ISTIO Setup - Sample Book Info- Visualiging Service Mesh 
+
+- [X] Docker Registry
+
 
 https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD
 
