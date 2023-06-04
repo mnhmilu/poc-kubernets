@@ -26,6 +26,6 @@ https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD
 [Persistence Volume ](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 
+[Kubernetics Full Courses](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
 
 
-https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC
