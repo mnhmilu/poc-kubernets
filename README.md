@@ -5,7 +5,7 @@
 
  - Kuberntes -BaicCronJob
  - 
-    ISTIO Setup - Sample Book Info- Visualiging Service Mesh
+    ISTIO Setup - Sample Book Info- Visualiging Service Mesh [Go to](https://istio.io/latest/docs/examples/bookinfo/)
    
     Docker Registry
    
