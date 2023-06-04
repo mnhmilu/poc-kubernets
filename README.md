@@ -1,31 +1,28 @@
-# microservice
-kubernetes based microservice 
 
+** kubernetes based microservice **
 
+### [](https://github.com/mnhmilu/microservice/blob/main/README.md#poc-list)POC List
 
+ - Kuberntes -BaicCronJob
+ - 
+    ISTIO Setup - Sample Book Info- Visualiging Service Mesh
+   
+    Docker Registry
+   
+    Terraform
+   
+     eksctl AWS EKS
 
-### POC List
-
-- [X] Kuberntes -BaicCronJob
-
-- [X] ISTIO Setup - Sample Book Info- Visualiging Service Mesh 
-
-- [X] Docker Registry
-
-- [X] Terraform 
-
-- [X] eksctl AWS EKS
- 
-
-
-https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD
+    
 
 
 ### Resoureces
 
-[Persistence Volume ](https://www.youtube.com/watch?v=X48VuDVv0do)
+[Resources](https://github.com/mnhmilu/microservice/blob/main/README.md#resoureces)
 
+[Readme](https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD)
+
+
+[Persistence Volume](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 [Kubernetics Full Courses](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
-
-
