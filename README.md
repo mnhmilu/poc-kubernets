@@ -18,6 +18,8 @@
 
 ### Resoureces
 
+[Learn Plan](https://github.com/mnhmilu/microservice/blob/main/learn-plan.MD)
+
 [Resources](https://github.com/mnhmilu/microservice/blob/main/README.md#resoureces)
 
 [Readme](https://github.com/mnhmilu/microservice/blob/main/poc/cronjob/Readme.MD)
