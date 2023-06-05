@@ -7,9 +7,6 @@
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![React](https://github.com/mnhmilu/microservice/blob/main/images/kubernet.png)](https://reactjs.org)
-
-https://github.com/mnhmilu/microservice/blob/main/images/gitlab.png
-
 * [![Next][https://github.com/mnhmilu/microservice/blob/main/images/gitlab.png]][https://kubernetes.io/]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
