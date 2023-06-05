@@ -28,3 +28,10 @@
 [Persistence Volume](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 [Kubernetics Full Courses](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
+
+### Buy me a Coffee! 
+
+![Buy me a Coffee]([/path/to/image.png](https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png) "Text to show on mouseover").
+
+
+
