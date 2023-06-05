@@ -29,6 +29,8 @@
 
 [Kubernetics Full Courses](https://www.youtube.com/watch?v=VnvRFRk_51k&list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC)
 
+[How to write a good Readme ](https://github.com/othneildrew/Best-README-Template)
+
 ### Buy me a Coffee! 
 
 
