@@ -31,9 +31,8 @@
 
 ### Buy me a Coffee! 
 
-![me](https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png)
 
-<img src="https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png"  width="60%" height="30%">
+<img src="https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png"  width="30%" height="30%">
 
 
 
