@@ -31,6 +31,8 @@
 
 ### Buy me a Coffee! 
 
+![me](https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png)
+
 ![Buy me a Coffee]([/path/to/image.png](https://github.com/mnhmilu/microservice/blob/main/bmc_qr.png) "Text to show on mouseover").
 
 
