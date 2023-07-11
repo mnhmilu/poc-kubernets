@@ -16,8 +16,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- ROADMAP -->
 ## Roadmap
 
-  - MongoDB with exposed service [Ref](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
-      - see demo projects [Ref](https://www.youtube.com/watch?v=X48VuDVv0do)
+  -  [MongoDB with exposed service](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
+      -  [demo projects ](https://www.youtube.com/watch?v=X48VuDVv0do)
 
   - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob)
   
