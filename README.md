@@ -27,7 +27,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
    
     [ Terraform](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/terraform)
    
-    .[eksctl AWS EKS](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/eksctll)
+    [AWS EKS](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/eksctl)
 
 
     
