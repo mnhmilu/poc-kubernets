@@ -39,6 +39,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
    
      eksctl AWS EKS
 
+     MongoDB with exposed service [Ref](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
+      - see demo projects [Ref](https://www.youtube.com/watch?v=X48VuDVv0do)
+
     
 <!-- TABLE OF CONTENTS -->
 <details>
