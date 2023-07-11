@@ -25,9 +25,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
    
     Docker Registry
    
-   [ Terraform](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/terraform)
+    [ Terraform](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/terraform)
    
-    [eksctl AWS EKS](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/eksctll)
+    .[eksctl AWS EKS](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/eksctll)
 
 
     
