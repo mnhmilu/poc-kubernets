@@ -16,31 +16,19 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+  - MongoDB with exposed service [Ref](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
+      - see demo projects [Ref](https://www.youtube.com/watch?v=X48VuDVv0do)
 
-
-
-
-### [](https://github.com/mnhmilu/microservice/blob/main/README.md#poc-list)POC List
-
- - Kuberntes -BaicCronJob
- - 
-    ISTIO Setup - Sample Book Info- Visualiging Service Mesh [Go to](https://istio.io/latest/docs/examples/bookinfo/)
+  - [Kuberntes -BaicCronJob]([url](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob))
+  
+  - [ISTIO Setup - Sample Book Info- Visualiging Service Mesh](https://istio.io/latest/docs/examples/bookinfo/)
    
     Docker Registry
    
-    Terraform
+   [ Terraform](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/terraform)
    
-     eksctl AWS EKS
+    [eksctl AWS EKS](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/eksctll)
 
-     MongoDB with exposed service [Ref](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
-      - see demo projects [Ref](https://www.youtube.com/watch?v=X48VuDVv0do)
 
     
 <!-- TABLE OF CONTENTS -->
