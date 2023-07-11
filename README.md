@@ -19,7 +19,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
   - MongoDB with exposed service [Ref](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
       - see demo projects [Ref](https://www.youtube.com/watch?v=X48VuDVv0do)
 
-  - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob))
+  - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob)
   
   - [ISTIO Setup - Sample Book Info- Visualiging Service Mesh](https://istio.io/latest/docs/examples/bookinfo/)
    
