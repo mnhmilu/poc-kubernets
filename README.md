@@ -1,6 +1,7 @@
 
 # kubernetes based microservice 
 
+![kubernetes Temaplates](https://github.com/mnhmilu/poc-kubernets/assets/7475000/35423e34-e01e-4b79-b562-a6d39a026881)
 
 
 
