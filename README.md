@@ -6,7 +6,7 @@
 ## Roadmap
 
   -  [MongoDB with exposed service](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
-      -  [demo project youtube ](https://www.youtube.com/watch?v=X48VuDVv0do)
+      -  [Kubernetes Tutorial for Beginners by Nana ](https://www.youtube.com/watch?v=X48VuDVv0do)
       -  [Dockerizing FastAPI with Postgres, Uvicorn, and Traefik](https://testdriven.io/blog/fastapi-docker-traefik/)
 
   - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob)
