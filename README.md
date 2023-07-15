@@ -6,7 +6,7 @@
 ## Roadmap
 
   -  [MongoDB with exposed service](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
-      -  [demo projects ](https://www.youtube.com/watch?v=X48VuDVv0do)
+      -  [demo project youtube ](https://www.youtube.com/watch?v=X48VuDVv0do)
 
   - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob)
   
