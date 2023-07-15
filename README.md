@@ -8,7 +8,7 @@
   -  [MongoDB with exposed service](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-4)
       -  [Kubernetes Tutorial for Beginners by Nana ](https://www.youtube.com/watch?v=X48VuDVv0do)
       -  [Dockerizing FastAPI with Postgres, Uvicorn, and Traefik](https://testdriven.io/blog/fastapi-docker-traefik/)
-        - [git-poc-reference](https://github.com/mnhmilu/poc-python/tree/main/fastapi/fastapi-postgre)    
+          - [git-poc-reference](https://github.com/mnhmilu/poc-python/tree/main/fastapi/fastapi-postgre)    
 
   - [Kuberntes -BaicCronJob](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/cronjob)
   
