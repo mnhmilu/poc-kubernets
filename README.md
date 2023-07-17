@@ -4,14 +4,14 @@
 [Road Map with Milestone](https://docs.google.com/spreadsheets/d/1zxBIoNyymyXTqIBEPrSyXTuE0egg7BfGt3JbsUjvN-M/edit#gid=0)
 
 
-## Learing Trail
+## Learning Trail
 
 [Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 Topic: Mongo Express with Mongo DB
 ```
 Key Takeaway: 
-- How to deploy Mongodb image in Kubernetes with deployment and service without exposing the external world
+- How to deploy MongoDB image in Kubernetes with deployment and service without exposing the external world
 - How to deploy MongoDB express with exposed service
 - How to use Kubernetes Config
 - How to use Kubernetes Secret 
