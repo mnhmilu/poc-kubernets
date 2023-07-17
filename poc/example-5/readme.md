@@ -26,7 +26,11 @@
 
   To view minikube kubernet config file use `cat ~/.kube/config`
 
-  To resole the problem use `minikube ssh docker pulll image-name`
+  To solve the problem use `minikube ssh docker pulll image-name`
+
+  or
+
+  use host docker env to minikube by   `eval $(minikube docker-env)`
 
 
 
