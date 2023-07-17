@@ -1,3 +1,13 @@
+
+### Key Take away
+
+- Minikube and docker env sync
+- Reason behind the imagepullbackoff in minikube's own docker env
+- How to run simple FastAPI in minikube environment
+- How to see events easily in minikube dashboard
+- How to check minikube's kubernet config file
+
+
 ```
   kubectl create deployment hello-fastapi --image=registry.hub.docker.com/noahgift/fastapi-kube
   kubectl expose deployment hello-fastapi --type=LoadBalancer --port=8080
