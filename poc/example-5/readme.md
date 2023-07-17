@@ -6,13 +6,13 @@
   curl http://192.168.39.56:31960
 ```
 
-  But connection refused due to Imagepull backoff problem
+  But the connection refused due to Imagepull backoff problem
 
 
 
-  ### Trouble shoot
+  ### Troubleshoot
   
-  To view events open exposed url by calling `minikube dashboard --url`
+  To view events open the exposed url by calling `minikube dashboard --url`
 
   To view minikube kubernet config file use `cat ~/.kube/config`
 
@@ -25,3 +25,5 @@
   [Run Simple FastAPI in minikube](https://www.youtube.com/watch?v=WsWlX4wQ7B0)
 
   [Details Reason here ](https://github.com/mnhmilu/poc-kubernets/wiki/TroubleShoot)
+
+  [minikube common problem](https://github.com/mnhmilu/poc-kubernets/wiki/Minikube-common-problem)
