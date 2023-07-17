@@ -4,6 +4,21 @@
 [Road Map with Milestone](https://docs.google.com/spreadsheets/d/1zxBIoNyymyXTqIBEPrSyXTuE0egg7BfGt3JbsUjvN-M/edit#gid=0)
 
 
+## Learing Trail
+
+[Example 5](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-5/readme.md)
+
+Topic: FastAPI in minikube
+Key Takeaway: 
+Minikube and docker env sync
+Reason behind the imagepullbackoff in minikube's own docker env
+How to run simple FastAPI in minikube environment
+How to see events easily in minikube dashboard
+How to check minikube's kubernet config file
+
+
+
+
 <!-- ROADMAP -->
 ## Roadmap
 
