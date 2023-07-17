@@ -6,6 +6,21 @@
 
 ## Learing Trail
 
+[Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
+
+Topic: Mongo Express with Mongo DB
+```
+Key Takeaway: 
+- How to deploy Mongodb image in Kubernetes with deployment and service without exposing the external world
+- How to deploy MongoDB express with exposed service
+- How to use Kubernetes Config
+- How to use Kubernetes Secret 
+
+```
+
+
+---
+
 [Example 5](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-5/readme.md)
 
 Topic: FastAPI in minikube
