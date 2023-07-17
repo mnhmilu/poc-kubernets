@@ -6,18 +6,18 @@
 
 ## Learning Trail
 
-[Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
+---
 
-Topic: Mongo Express with Mongo DB
+[Example 6]([https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-5/readme.md](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-6/readme.md))
+
+Topic: FastAPI in minikube with postgre database
 ```
 Key Takeaway: 
-- How to deploy MongoDB image in Kubernetes with deployment and service without exposing the external world
-- How to deploy MongoDB express with exposed service
-- How to use Kubernetes Config
-- How to use Kubernetes Secret 
 
-```
-
+- Deploy Postgresql database
+- Deploy fast API API set with CRUD operation with load balancer
+- Python client added for database entry
+- Docker Registry created, build an image with name and tag and push to local docker repository
 
 ---
 
@@ -31,6 +31,24 @@ Reason behind the imagepullbackoff in minikube's own docker env
 How to run simple FastAPI in minikube environment
 How to see events easily in minikube dashboard
 How to check minikube's kubernet config file
+
+---
+
+
+[Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
+
+Topic: Mongo Express with Mongo DB
+```
+Key Takeaway: 
+- How to deploy MongoDB image in Kubernetes with deployment and service without exposing the external world
+- How to deploy MongoDB express with exposed service
+- How to use Kubernetes Config
+- How to use Kubernetes Secret 
+
+```
+
+
+
 ```
 
 
