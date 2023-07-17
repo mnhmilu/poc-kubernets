@@ -17,6 +17,7 @@ Key Takeaway:
 - Deploy Postgresql database
 - Deploy fast API API set with CRUD operation with load balancer
 - Python client added for database entry
+- Learned how to resolve 'ImpagePullBackoff' problem by running and push in local registry
 - Docker Registry created, build an image with name and tag and push to local docker repository
 ```
 
