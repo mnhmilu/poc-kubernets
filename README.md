@@ -32,6 +32,7 @@ Reason behind the imagepullbackoff in minikube's own docker env
 How to run simple FastAPI in minikube environment
 How to see events easily in minikube dashboard
 How to check minikube's kubernet config file
+```
 
 ---
 
@@ -39,6 +40,7 @@ How to check minikube's kubernet config file
 [Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 Topic: Mongo Express with Mongo DB
+
 ```
 Key Takeaway: 
 - How to deploy MongoDB image in Kubernetes with deployment and service without exposing the external world
