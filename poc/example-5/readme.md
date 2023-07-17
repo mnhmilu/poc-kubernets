@@ -1,9 +1,10 @@
-
+```
   kubectl create deployment hello-fastapi --image=registry.hub.docker.com/noahgift/fastapi-kube
   kubectl expose deployment hello-fastapi --type=LoadBalancer --port=8080
   kubectl get service hello-fastapi
   minikube service hello-fastapi --url
   curl http://192.168.39.56:31960
+```
 
   But connection refused due to Imagepull backoff problem
 
