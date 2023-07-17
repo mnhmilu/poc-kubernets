@@ -12,7 +12,7 @@
 
   ### Trouble shoot
   
-  minikube dashboard --url
+  To view events open exposed url by calling `minikube dashboard --url`
 
   To view minikube kubernet config file use `cat ~/.kube/config`
 
