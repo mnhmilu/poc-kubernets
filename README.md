@@ -18,6 +18,7 @@ Key Takeaway:
 - Deploy fast API API set with CRUD operation with load balancer
 - Python client added for database entry
 - Docker Registry created, build an image with name and tag and push to local docker repository
+```
 
 ---
 
