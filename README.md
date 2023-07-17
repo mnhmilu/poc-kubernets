@@ -10,7 +10,7 @@
 
 [Example 6]([https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-5/readme.md](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-6/readme.md))
 
-Topic: FastAPI in minikube with postgre database
+Topic: FastAPI in minikube with Postgres database
 ```
 Key Takeaway: 
 
@@ -46,11 +46,6 @@ Key Takeaway:
 - How to use Kubernetes Secret 
 
 ```
-
-
-
-```
-
 
 
 <!-- ROADMAP -->
