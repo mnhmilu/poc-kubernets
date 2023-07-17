@@ -2,6 +2,17 @@
 > run all commmand in single command prompt
 
 
+before start
+
+```
+minikube start
+eval $(minikube -p minikube docker-env)
+docker run -d -p 5000:5000 --restart=always --name registry registry:2 
+
+```
+
+After the source code change in main.py
+
 ```
       docker build -t fastapi-app .
       docker tag fastapi-app localhost:5000/fastapi-app:latest
