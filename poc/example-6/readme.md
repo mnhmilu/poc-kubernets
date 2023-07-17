@@ -23,9 +23,7 @@ kubectl apply -f postgres-deployment.yaml
 
 ```
 
-Deploy the fast-API service
-
-After the source code change in main.py
+Deploy the fast-API service or after the source code change in main.py
 
 ```
       docker build -t fastapi-app .
@@ -38,12 +36,15 @@ After the source code change in main.py
 
 ```
 
+Test the fast-api
+
       call `http://192.168.39.56-minikubeip:30000/create-item-table` to create item table
 
       run `pyhton3 client.py` to insert a new item to 'item' table
 
       call `http://192.168.39.56-minikubeip:30000/items` in browser to see the result 
 
+About minikube ops
 
 ```
       minikube ip
