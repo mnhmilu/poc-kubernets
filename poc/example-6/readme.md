@@ -49,4 +49,6 @@ About minikube ops
 ```
       minikube ip
       minikube service list
+      http://192.168.39.56:30000/docs // for swagger docs
+
 ```
