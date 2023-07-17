@@ -8,7 +8,7 @@
 
 ---
 
-[Example 6]([https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-5/readme.md](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-6/readme.md))
+[Example 6](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
 
 Topic: FastAPI in minikube with Postgres database
 ```
