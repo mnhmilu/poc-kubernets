@@ -8,7 +8,7 @@
 
 [Example 7](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-7)
 
-Topic: FastAPI with Postgres database using Docker compose
+Topic: FastAPI with Postgres database using Docker compose and ORM
 ```
 Key Takeaway: 
 
