@@ -15,6 +15,7 @@ Key Takeaway:
 - Deploy Postgresql database
 - Deploy fast API API set with CRUD operation 
 - ORM used for Postgres connectivity
+- SQLite in database.py for in-memory database
 
 ```
 
