@@ -22,6 +22,10 @@ Key Takeaway:
 
 `docker-compose logs app`
 
+after run:
+
+from browser `http://localhost:8000/docs ` for swagger 
+
 
 [Source](https://fastapi.tiangolo.com/tutorial/sql-databases/#create-a-sessionlocal-class)
 
