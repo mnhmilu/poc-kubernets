@@ -6,6 +6,25 @@
 
 ## Learning Trail
 
+[Example 7](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-7)
+
+Topic: FastAPI with Postgres database using Docker compose
+```
+Key Takeaway: 
+
+- Deploy Postgresql database
+- Deploy fast API API set with CRUD operation 
+- ORM used for Postgres connectivity
+
+```
+
+`docker-compose up -d --build`
+
+`docker-compose logs app`
+
+
+[Source](https://fastapi.tiangolo.com/tutorial/sql-databases/#create-a-sessionlocal-class)
+
 ---
 
 [Example 6](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
