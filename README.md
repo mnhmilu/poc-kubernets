@@ -63,7 +63,7 @@ How to check minikube's kubernet config file
 ---
 
 
-[Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) [Youtube](https://www.youtube.com/watch?v=X48VuDVv0do)
+[Example 4](https://github.com/mnhmilu/poc-kubernets/blob/main/poc/example-4/k8s-commands.md) 
 
 Topic: Mongo Express with Mongo DB
 
@@ -76,6 +76,7 @@ Key Takeaway:
 
 ```
 
+[Source](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 <!-- ROADMAP -->
 ## Roadmap
