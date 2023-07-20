@@ -16,6 +16,7 @@ Key Takeaway:
 - Deploy fast API API set with CRUD operation 
 - ORM used for Postgres connectivity
 - SQLite in database.py for in-memory database
+- Service declared in docker-compose file, where fast API connect with db
 
 ```
 
