@@ -2,7 +2,7 @@
 > run all commmand in single command prompt
 
 
-before start
+### before start
 
 ```
 minikube start
@@ -14,19 +14,19 @@ kubectl config set-context --current --namespace=poc-kubernetes
 ```
 
 
-To generate Base64 dbuser name and password
+### To generate Base64 dbuser name and password
 
 `echo -n 'nahid' | base64`
 
 `echo -n 'admin' | base64`
 
-To apply secret and configmap 
+### To apply secret and configmap 
 
 `kubectl apply -f postgres-configmap.yaml`
 
 `kubectl apply -f postgres-secret.yaml`
 
-To give permission for configmap and secret 
+### To give permission for configmap and secret 
 
 ```
       kubectl apply -f configmaps-reader-clusterrole.yaml
@@ -36,7 +36,7 @@ To give permission for configmap and secret
 ```
 
 
-Deploy the DB 
+### Deploy the DB 
 
 ```
 kubectl apply -f postgres-deployment.yaml
@@ -44,7 +44,7 @@ kubectl apply -f postgres-deployment.yaml
 
 ```
 
-Deploy the fast-API service or after the source code change in main.py
+### Deploy the fast-API service or after the source code change in main.py
 
 ```
       docker build -t fastapi-app .
@@ -58,7 +58,7 @@ Deploy the fast-API service or after the source code change in main.py
 
 ```
 
-Test the fast-api
+### Test the fast-api
 
       call `http://192.168.39.56-minikubeip:30000/create-item-table` to create item table
 
@@ -66,7 +66,7 @@ Test the fast-api
 
       call `http://192.168.39.56-minikubeip:30000/items` in browser to see the result 
 
-About minikube ops
+### About minikube ops
 
 ```
       kubectl get configmap
