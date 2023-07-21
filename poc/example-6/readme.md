@@ -26,7 +26,14 @@ To apply secret and configmap
 
 `kubectl apply -f postgres-secret.yaml`
 
+To give permission for configmap and secret 
 
+```
+      kubectl apply -f configmaps-reader-clusterrole.yaml
+      kubectl apply -f configmaps-reader-clusterrolebinding.yaml
+      kubectl apply -f secrets-reader-clusterrole.yaml
+      kubectl apply -f secrets-reader-clusterrolebinding.yaml
+```
 
 
 Deploy the DB 
@@ -43,10 +50,7 @@ Deploy the fast-API service or after the source code change in main.py
       docker build -t fastapi-app .
       docker tag fastapi-app localhost:5000/fastapi-app:latest
       docker push localhost:5000/fastapi-app:latest
-      kubectl apply -f configmaps-reader-clusterrole.yaml
-      kubectl apply -f configmaps-reader-clusterrolebinding.yaml
-      kubectl apply -f secrets-reader-clusterrole.yaml
-      kubectl apply -f secrets-reader-clusterrolebinding.yaml
+
       kubectl delete deployment fastapi-deployment -n poc-kubernetes
       kubectl apply -f fastapi-deployment.yaml 
       kubectl get service
