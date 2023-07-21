@@ -6,6 +6,11 @@
 
 ## Learning Trail
 
+### Upcoming: Update example 7 with config map and secret and use middleware 
+
+
+---
+
 [Example 6 updated](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
 
 Topic: FastAPI in minikube with Postgres database with configmap and secret
