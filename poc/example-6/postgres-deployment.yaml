@@ -16,15 +16,25 @@ spec:
       containers:
       - name: postgres
         image: postgres:15-alpine
+        ports:
+        - containerPort:  5432
         env:
         - name: POSTGRES_USER
-          value: your_username
+          valueFrom:
+           secretKeyRef:
+             name: postgres-secret
+             key: postgres-root-username
         - name: POSTGRES_PASSWORD
-          value: your_password
+          valueFrom:
+           secretKeyRef:
+             name: postgres-secret
+             key: postgres-root-password
         - name: POSTGRES_DB
-          value: your_database_name
-        ports:
-        - containerPort: 5432
+          valueFrom:
+           configMapKeyRef: 
+             name: postgres-configmap
+             key: db_name   
+       
 ---
 apiVersion: v1
 kind: Service

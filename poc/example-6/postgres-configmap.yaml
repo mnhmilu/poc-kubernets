@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-configmap
+data:
+  db_host: postgres-service
+  db_port: "5432"
+  db_name: nahid-db

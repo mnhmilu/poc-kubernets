@@ -18,15 +18,31 @@ spec:
         image: localhost:5000/fastapi-app:latest
         env:
         - name: POSTGRES_HOST
-          value: postgres-service
+          valueFrom:
+           configMapKeyRef: 
+             name: postgres-configmap
+             key: db_host        
         - name: POSTGRES_PORT
-          value: "5432"
-        - name: POSTGRES_USER
-          value: your_username
-        - name: POSTGRES_PASSWORD
-          value: your_password
+          valueFrom:
+            configMapKeyRef: 
+              name: postgres-configmap
+              key: db_port  
         - name: POSTGRES_DB
-          value: your_database_name
+          valueFrom:
+           configMapKeyRef: 
+             name: postgres-configmap
+             key: db_name   
+        - name: POSTGRES_USER
+          valueFrom:
+           secretKeyRef:
+             name: postgres-secret
+             key: postgres-root-username
+        - name: POSTGRES_PASSWORD
+          valueFrom:
+           secretKeyRef:
+             name: postgres-secret
+             key: postgres-root-password
+          
         ports:
         - containerPort: 80
 ---
