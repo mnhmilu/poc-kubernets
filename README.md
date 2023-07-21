@@ -18,6 +18,9 @@ Key Takeaway:
 - How to use base64 encoded db username and password in a secret file and how to decode in main.py 
 
 ```
+Commit Ref: dc1c52e9f6ad98d7e988e9ab3316f5d5fa47b201
+
+---
 
 [Example 7](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-7)
 
