@@ -6,6 +6,19 @@
 
 ## Learning Trail
 
+[Example 6 updated](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
+
+Topic: FastAPI in minikube with Postgres database with configmap and secret
+```
+Key Takeaway: 
+
+- How to apply configmap and secret in kubernets in deployment file as db user ,password , db host etc
+- How to troubleshoot CrashLoopBackOff
+  use `kubectl describe pod x ` and then `kubectl logs pods to identify problem
+- How to use base64 encoded db username and password in a secret file and how to decode in main.py 
+
+```
+
 [Example 7](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-7)
 
 Topic: FastAPI with Postgres database using Docker compose and ORM
