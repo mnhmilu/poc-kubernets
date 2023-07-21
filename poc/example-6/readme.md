@@ -29,6 +29,10 @@ Deploy the fast-API service or after the source code change in main.py
       docker build -t fastapi-app .
       docker tag fastapi-app localhost:5000/fastapi-app:latest
       docker push localhost:5000/fastapi-app:latest
+      kubectl apply -f configmaps-reader-clusterrole.yaml
+      kubectl apply -f configmaps-reader-clusterrolebinding.yaml
+      kubectl apply -f secrets-reader-clusterrole.yaml
+      kubectl apply -f secrets-reader-clusterrolebinding.yaml
       kubectl delete deployment fastapi-deployment -n poc-kubernetes
       kubectl apply -f fastapi-deployment.yaml 
       kubectl get service
@@ -47,6 +51,8 @@ Test the fast-api
 About minikube ops
 
 ```
+      kubectl get configmap
+      kubectl get deployment
       minikube ip
       minikube service list
       http://192.168.39.56:30000/docs // for swagger docs
