@@ -12,6 +12,15 @@ kubectl create  namespace poc-kubernetes
 kubectl config set-context --current --namespace=poc-kubernetes
 
 
+To generate Base64 dbuser name and password
+
+```
+echo -n 'nahid' | base64
+echo -n 'admin' | base64
+
+```
+
+
 
 ```
 
