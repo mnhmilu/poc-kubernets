@@ -20,7 +20,11 @@ To generate Base64 dbuser name and password
 
 `echo -n 'admin' | base64`
 
+To apply secret and configmap 
 
+`kubectl apply -f postgres-configmap.yaml`
+
+`kubectl apply -f postgres-secret.yaml`
 
 
 
