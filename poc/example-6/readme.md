@@ -11,9 +11,10 @@ docker run -d -p 5000:5000 --restart=always --name registry registry:2
 kubectl create  namespace poc-kubernetes
 kubectl config set-context --current --namespace=poc-kubernetes
 
+```
+
 
 To generate Base64 dbuser name and password
-
 
 `echo -n 'nahid' | base64`
 
@@ -23,7 +24,6 @@ To generate Base64 dbuser name and password
 
 
 
-```
 
 Deploy the DB 
 
