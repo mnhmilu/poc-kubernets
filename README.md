@@ -6,7 +6,7 @@
 
 ## Learning Trail
 
-### Upcoming: Update example 7 with config map and secret and use middleware 
+### Upcoming: Update example 7 with config map, secret and use middleware 
 
 
 ---
