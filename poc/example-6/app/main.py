@@ -16,7 +16,6 @@ def get_secret(secret_name, secret_key):
     secret_value = secret.data[secret_key]
     # Decode the secret value (username) from Base64 to Unicode string
     decoded_value = base64.b64decode(secret_value).decode("utf-8")
-
     return decoded_value
 
 # Function to retrieve ConfigMap data from Kubernetes
@@ -37,7 +36,6 @@ db_name = get_config_map("postgres-configmap", "db_name")
 
 # Establish a connection to the PostgreSQL database
 db_url = f"postgresql://{db_username}:{db_password}@{db_host}:{db_port}/{db_name}"
-#connection = psycopg2.connect(db_url)
 
 
 class Item(BaseModel):
@@ -50,13 +48,7 @@ def read_root():
 
 @app.post("/items/")
 def create_item(item: Item):
-    # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+    
     connection = psycopg2.connect(db_url)
     cursor = connection.cursor()
 
@@ -74,13 +66,7 @@ def create_item(item: Item):
 
 @app.get("/items/{item_id}")
 def get_item(item_id: int):
-   # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+  
     connection = psycopg2.connect(db_url)
 
     cursor = connection.cursor()
@@ -108,13 +94,7 @@ def get_item(item_id: int):
 
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
-    # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+  
     connection = psycopg2.connect(db_url)
 
     cursor = connection.cursor()
@@ -133,13 +113,7 @@ def update_item(item_id: int, item: Item):
 
 @app.delete("/items/{item_id}")
 def delete_item(item_id: int):
-    # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+    
     connection = psycopg2.connect(db_url)
 
     cursor = connection.cursor()
@@ -162,13 +136,7 @@ def delete_item(item_id: int):
 @app.get("/create-item-table")
 def create_item_table():
     # Establish a connection to the PostgreSQL database
-   # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+   
     connection = psycopg2.connect(db_url)
 
     # Create a cursor object to execute SQL queries
@@ -204,13 +172,7 @@ def create_item_table():
 @app.get("/items")
 def get_all_items():
     # Establish a connection to the PostgreSQL database
-   # connection = psycopg2.connect(
-    #     host="postgres-service",
-    #     port="5432",
-    #     database="your_database_name",
-    #     user="your_username",
-    #     password="your_password",
-    # )
+ 
     connection = psycopg2.connect(db_url)
     # Create a cursor object to execute SQL queries
     cursor = connection.cursor()
