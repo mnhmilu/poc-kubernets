@@ -10,23 +10,46 @@
 
 ---
 
-[Example 8 ](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
+[Example 8 ](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-8)
 
-Topic: FastAPI in Dockerswarm with Postgres database +ORM
+Topic: FastAPI in Docker swarm with Postgres database + ORM
 ```
 Key Takeaway: 
 
-- How to apply configmap and secret in kubernets in deployment file as db user ,password , db host etc
-- How to troubleshoot CrashLoopBackOff
-  use `kubectl describe pod x ` and then `kubectl logs pods to identify problem
-- How to use base64 encoded db username and password in a secret file and how to decode in main.py
+- How to configure Docker Swarm by creating a master and worker node 
+- How to deploy a FastAPI backend with ORM and Postgres server to run in configured Docker Swarm
+
+```
+
+Steps:
+
+```
+
+Make sure all worker node are ready if not update iptable to allow connect and leave and join again to master 
+
+docker pull postgres:15-alpine // will pull posgres image 
+
+docker-compose build // it will build app image for local
+
+docker stack deploy -c docker-compose.yml nahid_apps  //deploy the stack in docker swarm
+
+now call swagger http://192.168.0.121:8000/docs
+
+table will auto created
+
+user swagger to create a new sample user and get a list to see if it added a new user
+
+for any error see the service logs 
 
 docker service ls
 
 docker service logs nahid_apps_db
 
 ```
+
 Commit Ref: 
+
+Readme : [Wiki](https://github.com/mnhmilu/poc-kubernets/wiki/Docker-Swarm-Configuration-in-Home)
 
 ---
 
