@@ -18,6 +18,7 @@ Key Takeaway:
 
 - How to configure Docker Swarm by creating a master and worker node 
 - How to deploy a FastAPI backend with ORM and Postgres server to run in configured Docker Swarm
+- How to replicate web app to 3 
 
 ```
 
@@ -49,7 +50,7 @@ docker service logs nahid_apps_db
 
 Commit Ref: 
 
-Readme : [Wiki](https://github.com/mnhmilu/poc-kubernets/wiki/Docker-Swarm-Configuration-in-Home)
+Readme : [Wiki for Docker Swarm in Home Network](https://github.com/mnhmilu/poc-kubernets/wiki/Docker-Swarm-Configuration-in-Home)
 
 ---
 
