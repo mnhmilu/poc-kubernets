@@ -6,6 +6,30 @@
 
 ## Learning Trail
 
+
+
+---
+
+[Example 8 ](https://github.com/mnhmilu/poc-kubernets/tree/main/poc/example-6)
+
+Topic: FastAPI in Dockerswarm with Postgres database +ORM
+```
+Key Takeaway: 
+
+- How to apply configmap and secret in kubernets in deployment file as db user ,password , db host etc
+- How to troubleshoot CrashLoopBackOff
+  use `kubectl describe pod x ` and then `kubectl logs pods to identify problem
+- How to use base64 encoded db username and password in a secret file and how to decode in main.py
+
+docker service ls
+
+docker service logs nahid_apps_db
+
+```
+Commit Ref: 
+
+---
+
 ### Upcoming: Update example 7 with config map, secret and use middleware 
 
 
