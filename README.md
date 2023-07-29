@@ -26,7 +26,9 @@ Steps:
 
 ```
 
-Make sure all worker node are ready if not update iptable to allow connect and leave and join again to master 
+Make sure all worker node are ready if not update iptable to allow connect and leave and join again to master
+
+Transfer App folder which contain source , docker file , docker-compose yml to master node using file zilla 
 
 docker pull postgres:15-alpine // will pull posgres image 
 
